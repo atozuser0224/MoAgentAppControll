@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    compileOnly("org.robolectric:android-all:14-robolectric-10818077")
 }
 
 kotlin {
